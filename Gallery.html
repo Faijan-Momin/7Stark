@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide">
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+    <title>7Stark Marketing</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+.tab-box{
+            padding: 5px;
+            border: 1px solid #DDD;
+            border-top: 0;
+        }
+        .tab-box > h3{
+            margin:5px 0;
+            font-style:italic;
+        }
+        .tab-box > p{
+            line-height: 2;
+            color: #919191;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 28px;
+      background: #fff;
+
+      /* border: 0.5px solid gray; */
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header" id="Header">
+            <div id="headerNav" class="overlay">
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                <div class="overlay-content">
+                  <a href="#">Blog</a>
+                  <hr style="width: 80%;">
+                  <a href="#">Store</a>
+                  <hr style="width: 80%;">
+                  <a href="#">About</a>
+                  <hr style="width: 80%;">
+                  <a href="#">Contact Us</a>
+                  <hr style="width: 80%;">
+                </div>
+            </div>
+            <div class="header-nav-list">
+                <ul class="navbar-list">
+                    <div class="nav-icon-mobile-view">
+                        <div class="hamburger-container" onclick="Hamburger(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>                    </div>
+                    <li class="nav-list">
+                        <div id="nav-list-image" class="nav-list-image">
+                            <a class="nav-list-link-attribute" href="#home">
+                                <img class="header-logo" src="images/logo_1.png" alt="7Stark" data-analytics-title="7Stark">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-list">
+                        <div id="mobile-view-hide-blog" class="nav-list-link">
+                            <a class="nav-list-link-attribute" href="http://" target="_blank" rel="noopener noreferrer">
+                                Blog
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-list">
+                        <div id="mobile-view-hide-store" class="nav-list-link">
+                            <a class="nav-list-link-attribute" href="http://" target="_blank" rel="noopener noreferrer">
+                                Store
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-list">
+                        <div id="mobile-view-hide-about" class="nav-list-link">
+                            <a class="nav-list-link-attribute" href="http://" target="_blank" rel="noopener noreferrer">
+                                About
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-list">
+                        <div class="nav-list-link">
+                            <a id="call-icon" class="nav-list-link-attribute" href="tel:+91-000000000">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+
+    <section class="home-page-first-section" style="height: 20px;">
+        <!--  -->
+    </section>
+
+    <section class="gallery-page-first-section">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Currency for the Attention Economy Stand out from the Noise and Be the Voice
+                       &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                  </div>
+                  <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        We buid to invite them and they come
+                        Developing softly to win the war
+                        Simple Solutions for Complex Connections
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Your Growth starts from here!,
+                        we make web a rank of your success
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        "Wow" is the only word to describe,
+                        Outside the box Creativity
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Powered by Creativity and Co-powered by Growth,
+                        Let's ignite your business                    
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        For your favorite memories
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Style in Motion
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Painting your dreams into reality
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Jaw dropping videos in a matter of minutes,
+                        Moving pictures to fix Audience
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        We do things differently
+                        Show off with us
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        It's all about the People,
+                         We'll raise you high
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        You're the Hero and We're the Guide
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;      
+                        Accelerate your Digital Journey
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+                <div class="swiper-slide">
+                    <sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup>&nbsp;
+                        Are you our next Success Story
+                     &nbsp;<sub><i class="fa fa-quote-right" aria-hidden="true"></i></sub>
+                </div>
+
+
+                </div>
+                <!-- Add Pagination -->
+                
+                <!-- <div class="swiper-pagination"></div> -->
+                
+                <!-- Add Arrows -->
+                
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                
+              </div>
+    </section>
+
+    <section class="home-page-first-section" style="height: 20px;">
+        
+    </section>
+
+    <section class="gallery-page-second-section">
+        <div class="all-design-marketing-gallery" id="all-design-marketing">
+            <h1 class="gallery-titles">All Design Marketing</h1>
+            <div class="row"> 
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>    
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>  
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="consultancy-gallery" id="consultancy">
+            <h1 class="gallery-titles">Consultancy</h1>
+            <section>
+                <div class="container">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a href="#tab1" class="nav-link navbar-default active" data-toggle="tab">Biz Growth Idea</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#tab2" class="nav-link navbar-default" data-toggle="tab">Biz Webinar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#tab3" class="nav-link navbar-default" data-toggle="tab">Database</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#tab4" class="nav-link navbar-default" data-toggle="tab">Marketing Statergy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tab5" class="nav-link navbar-default" data-toggle="tab">Useful Technology in Biz</a>
+                        </li>
+                      </ul>
+                  
+                      <div class="tab-content">
+                        <div id="tab1" class="tab-pane active tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab2" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab3" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab4" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab5" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+            </section>
+            
+        </div>
+        <div class="digital-marketing-gallery" id="digital-marketing">
+            <h1 class="gallery-titles">Digital Marketing</h1>
+            <section>
+                <div class="container">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a href="#advertisementtab" class="nav-link navbar-default active" data-toggle="tab">Ad</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#coronatab" class="nav-link navbar-default" data-toggle="tab">Corona</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#didyouknowtab" class="nav-link navbar-default" data-toggle="tab">Did You Know</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#festivaltab" class="nav-link navbar-default" data-toggle="tab">Festival</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#takeittab" class="nav-link navbar-default" data-toggle="tab">Take it</a>
+                        </li>
+                      </ul>
+                  
+                      <div class="tab-content">
+                        <div id="advertisementtab" class="tab-pane active tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Ad 1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Ad 2.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Ad 6.jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Motivation 2.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/New Theme.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Re-Opening.jpg" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Sports 3.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Zindagi 1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Zindagi 2.jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Mask 1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Ad/Reuse  1.jpg" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="coronatab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Corona/Oxyriva Covid-19  1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Corona/Oxyriva Covid-19  2.jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Corona/Oxyriva Covid-19  4.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Corona/Oxyriva Covid-19  5.jpg" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Corona/Oxyriva Covid-19  3.jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Corona/Oxyriva Covid-19  6.jpg" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="didyouknowtab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 11.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 2.jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 4.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 5.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 6.jpg" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 8.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 9.jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 3.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Did You Know/Did You Know 7.jpg" style="width:100%">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="festivaltab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Bappa 1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Creative Post .jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Ganpati Visarjan 2.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Top of Purity.jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Involife World Mental Health Day.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/lal Bahadur Shastri Jayanti.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Navratri Involife.jpg" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Oxyriva World Mental Health Day.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Raksha Bandhan.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Thank You.jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/World Food Day.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Happy Muharram 2.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Festival/Navratri Oxyriva.jpg" style="width:100%">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="takeittab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 1.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 2.jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 5.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 6.jpg" style="width:100%">
+                                </div> 
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 4.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 3.jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 8.jpg" style="width:100%">
+                                    <img src="images/Category/Digital Marketing/campaign/Take it/Take It 7.jpg" style="width:100%">
+                                </div> 
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+            </section>
+        </div>
+        <div class="logo-design-gallery" id="logo-design">
+            <h1 class="gallery-titles">Logo Design</h1>
+            <div class="row"> 
+                <div class="column">
+                    <img src="images/Category/Logo Design/ (1).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (2).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (3).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (4).jpeg" style="width:100%">
+                </div>    
+                <div class="column">
+                    <img src="images/Category/Logo Design/ (5).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (6).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (7).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (8).jpeg" style="width:100%">
+                </div>  
+                <div class="column">
+                    <img src="images/Category/Logo Design/ (9).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (11).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (12).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (10).jpeg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/Category/Logo Design/ (13).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (14).jpeg" style="width:100%">
+                    <img src="images/Category/Logo Design/ (15).jpeg" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="photography-gallery" id="photography">
+            <h1 class="gallery-titles">Photography</h1>
+            <section>
+                <div class="container">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a href="#fashiontab" class="nav-link navbar-default active" data-toggle="tab">Fashion</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#foodtab" class="nav-link navbar-default" data-toggle="tab">Food</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#latestworktab" class="nav-link navbar-default" data-toggle="tab">Latest Work</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#producttab" class="nav-link navbar-default" data-toggle="tab">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#weddingtab" class="nav-link navbar-default" data-toggle="tab">Wedding</a>
+                        </li>
+                      </ul>
+                  
+                      <div class="tab-content">
+                        <div id="fashiontab" class="tab-pane active tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Photography/fashion/ (1).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (1).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (2).jpeg" style="width:100%">
+
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Photography/fashion/ (3).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (4).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (4).jpg" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Photography/fashion/ (6).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (8).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (2).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (8).jpeg" style="width:100%">
+
+
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Photography/fashion/ (5).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (2).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (8).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/fashion/ (8).jpeg" style="width:100%">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="foodtab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Photography/Food/ (1).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Food/ (5).jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Photography/Food/ (2).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Food/ (6).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Food/ (2).jpg" style="width:100%">
+
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Photography/Food/ (3).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Food/ (7).jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Photography/Food/ (4).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Food/ (5).jpg" style="width:100%">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="latestworktab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Photography//latest Work/ (1).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (5).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (9).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (13).jpeg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Photography//latest Work/ (2).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (6).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (10).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (4).jpeg" style="width:100%">
+
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Photography//latest Work/ (3).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (7).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (11).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (5).jpeg" style="width:100%">
+
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Photography//latest Work/ (4).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (8).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography//latest Work/ (12).jpeg" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="producttab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Photography/Product/ (1).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (2).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (3).jpg" style="width:100%">
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Photography/Product/ (5).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (6).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (7).jpg" style="width:100%">
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Photography/Product/ (9).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (10).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (11).jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Photography/Product/ (4).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (8).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Product/ (12).jpg" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="weddingtab" class="tab-pane tab-box">
+                            <div class="row"> 
+                                <div class="column">
+                                    <img src="images/Category/Photography/Wedding/ (1).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (1).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (10).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (11).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (8).jpg" style="width:100%">
+
+                                </div>    
+                                <div class="column">
+                                    <img src="images/Category/Photography/Wedding/ (12).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (13).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (14).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (15).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (6).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (7).jpg" style="width:100%">
+
+                                </div>  
+                                <div class="column">
+                                    <img src="images/Category/Photography/Wedding/ (16).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (17).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (18).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (2).jpeg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (9).jpg" style="width:100%">
+
+                                </div>
+                                <div class="column">
+                                    <img src="images/Category/Photography/Wedding/ (2).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (3).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (4).jpg" style="width:100%">
+                                    <img src="images/Category/Photography/Wedding/ (5).jpg" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+            </section>
+        </div>
+        <div class="software-development-gallery" id="software-development">
+            <h1 class="gallery-titles">Software Development</h1>
+            <div class="row"> 
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>    
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>  
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="video-ad-gallery" id="video-ad">
+            <h1 class="gallery-titles">Video Ad</h1>
+            <video controlsList="nodownload" width="100%" controls>
+                <source src="images/Category/Video Ad/InShot_20200911_215729313.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="unique-services-gallery" id="unique-services">
+            <h1 class="gallery-titles">Unique Services</h1>
+            <div class="row"> 
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>    
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>  
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="wall-painting-gallery" id="wall-painting">
+            <h1 class="gallery-titles">Wall Painting</h1>
+            <div class="row"> 
+                <div class="column">
+                    <img src="images/Category/Wall Painting/ (1).jpeg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (12).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (16).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (2).jpeg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (3).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (7).jpg" style="width:100%">
+                </div>    
+                <div class="column">
+                    <img src="images/Category/Wall Painting/ (1).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (13).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (17).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (2).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (4).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (8).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (9).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (19).jpg" style="width:100%">
+
+                </div>  
+                <div class="column">
+                    <img src="images/Category/Wall Painting/ (10).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (14).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (18).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (20).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (5).jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/Category/Wall Painting/ (11).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (15).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (19).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (21).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (6).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (12).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (16).jpg" style="width:100%">
+                    <img src="images/Category/Wall Painting/ (2).jpeg" style="width:100%">
+
+                </div>
+            </div>
+        </div>
+        <div class="web-designing-gallery" id="web-designing">
+            <h1 class="gallery-titles">Web Designing</h1>
+            <div class="row"> 
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>    
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>  
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="https://source.unsplash.com/720x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/620x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/650x600/?Digital,Marketing" style="width:100%">
+                    <img src="https://source.unsplash.com/725x600/?Digital,Marketing" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <div class="stark-copyright">
+                Copyright © 2020 7Stark Marketing All rights reserved.
+            </div>
+            <div class="Stark-policy">
+                <a class="stark-policy-links" href="http://" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                <a class="stark-policy-links" href="http://" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+                <a class="stark-policy-links-last" href="http://" target="_blank" rel="noopener noreferrer">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <script src="JavaScript/script.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

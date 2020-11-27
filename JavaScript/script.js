@@ -33,3 +33,23 @@ window.onscroll = function() {stickeyHeader()};
                 Hamburger_icon = false;
             }
         }
+
+        let NumberCount = document.querySelectorAll('.NumberSelector');
+        NumberCount.forEach((NumberSelector)=>{
+          const UpdateCount = ()=>{
+            let currentCount = parseInt(NumberSelector.innerHTML);
+            let targetCount = NumberSelector.getAttribute('data-target');
+            let increaseSpeed = 40;
+            let increaseCount = parseInt(targetCount/increaseSpeed);
+            if(currentCount<targetCount){
+              NumberSelector.innerHTML = currentCount + increaseCount + '+ ';
+            }
+            setTimeout(UpdateCount,increaseSpeed);
+          }
+          UpdateCount();
+        })
+
+
+        // Quotes
+
+        
